@@ -2,7 +2,7 @@
   "name": "gyokuro-theme",
   "displayName": "Gyokuro Theme",
   "description": "A soothing green tea inspired color theme for VS Code",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "publisher": "cupofcrumley",
   "author": {
@@ -31,6 +31,11 @@
         "label": "Gyokuro Light",
         "uiTheme": "vs",
         "path": "./themes/gyokuro-light.json"
+      },
+      {
+        "label": "Gyokuro Desert",
+        "uiTheme": "vs-dark",
+        "path": "./themes/gyokuro-desert.json"
       }
     ]
   }
