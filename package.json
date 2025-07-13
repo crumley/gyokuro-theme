@@ -36,6 +36,11 @@
         "label": "Gyokuro Desert",
         "uiTheme": "vs-dark",
         "path": "./themes/gyokuro-desert.json"
+      },
+      {
+        "label": "Gyokuro Desert OG",
+        "uiTheme": "vs-dark",
+        "path": "./themes/gyokuro-desert-og.json"
       }
     ]
   }
