@@ -1,0 +1,39 @@
+{
+    "workbench.colorCustomizations": {
+      // Status bar (bottom bar)
+      "statusBar.background": "#B83280",
+      "statusBar.foreground": "#F8BBD9",
+      "statusBar.noFolderBackground": "#B83280",
+      "statusBar.debuggingBackground": "#8B2252",
+      "statusBar.debuggingForeground": "#F8BBD9",
+      
+      // Activity bar (left side bar)
+      "activityBar.background": "#8B2252",
+      "activityBar.foreground": "#F8BBD9",
+      "activityBar.inactiveForeground": "#D8A7CA",
+      "activityBar.border": "#B83280",
+      
+      // Title bar (top bar)
+      "titleBar.activeBackground": "#B83280",
+      "titleBar.activeForeground": "#F8BBD9",
+      "titleBar.inactiveBackground": "#8B2252",
+      "titleBar.inactiveForeground": "#D8A7CA",
+      "titleBar.border": "#B83280",
+      
+      // Panel title (terminal, problems, etc.)
+      "panelTitle.activeBorder": "#F8BBD9",
+      "panelTitle.activeForeground": "#F8BBD9",
+      
+      // Focus border for pink accent
+      "focusBorder": "#F8BBD9",
+      
+      // Button colors
+      "button.background": "#B83280",
+      "button.foreground": "#F8BBD9",
+      "button.hoverBackground": "#8B2252",
+      
+      // Remote window indicator (bottom left)
+      "statusBarItem.remoteBackground": "#D63384",
+      "statusBarItem.remoteForeground": "#F8BBD9"
+    }
+  }
