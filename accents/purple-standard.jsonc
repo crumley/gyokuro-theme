@@ -34,37 +34,7 @@
         "commandCenter.foreground": "#1F001F",
         "commandCenter.activeBackground": "#9D00FF",
         "commandCenter.activeForeground": "#F0D0FF",
-        "commandCenter.border": "#6B008B",
-        // Editor tabs (only highlight active tab)
-        "tab.activeBackground": "#6B008B",
-        "tab.activeForeground": "#DA70D6",
-        "tab.activeBorder": "#9D00FF",
-        "tab.activeBorderTop": "#9D00FF",
-        // Sidebar sections
-        "sideBarSectionHeader.background": "#6B008B",
-        "sideBarSectionHeader.foreground": "#F0D0FF",
-        "sideBarSectionHeader.border": "#9D00FF",
-        // Text selection
-        "editor.selectionBackground": "#6B008B80",
-        "editor.selectionHighlightBackground": "#9D00FF40",
-        "editor.inactiveSelectionBackground": "#6B008B40",
-        // Input fields
-        "input.border": "#9D00FF",
-        "input.background": "#4D0066",
-        "input.foreground": "#F0D0FF",
-        // Badges
-        "badge.background": "#9D00FF",
-        "badge.foreground": "#F0D0FF",
-        // Scrollbars
-        "scrollbarSlider.background": "#9D00FF50",
-        "scrollbarSlider.hoverBackground": "#9D00FF80",
-        "scrollbarSlider.activeBackground": "#9D00FF",
-        // Lists and trees
-        "list.hoverBackground": "#6B008B40",
-        "list.activeSelectionBackground": "#6B008B",
-        "list.activeSelectionForeground": "#F0D0FF",
-        "list.inactiveSelectionBackground": "#6B008B60",
-        "list.inactiveSelectionForeground": "#F0D0FF"
+        "commandCenter.border": "#6B008B"
     }
 }
 

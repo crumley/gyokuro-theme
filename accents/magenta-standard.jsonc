@@ -1,0 +1,40 @@
+{
+    "workbench.colorCustomizations": {
+        // Status bar (bottom bar)
+        "statusBar.background": "#FF00FF",
+        "statusBar.foreground": "#1A001A",
+        "statusBar.noFolderBackground": "#FF00FF",
+        "statusBar.debuggingBackground": "#990099",
+        "statusBar.debuggingForeground": "#FFB3FF",
+        // Activity bar (left side bar)
+        "activityBar.background": "#990099",
+        "activityBar.foreground": "#FFB3FF",
+        "activityBar.inactiveForeground": "#FF66FF",
+        "activityBar.border": "#FF00FF",
+        // Title bar (top bar)
+        "titleBar.activeBackground": "#FF00FF",
+        "titleBar.activeForeground": "#1A001A",
+        "titleBar.inactiveBackground": "#990099",
+        "titleBar.inactiveForeground": "#FF66FF",
+        "titleBar.border": "#FF00FF",
+        // Panel title (terminal, problems, etc.)
+        "panelTitle.activeBorder": "#FF66FF",
+        "panelTitle.activeForeground": "#FF66FF",
+        // Focus border for magenta accent
+        "focusBorder": "#FF66FF",
+        // Button colors
+        "button.background": "#FF00FF",
+        "button.foreground": "#1A001A",
+        "button.hoverBackground": "#990099",
+        // Remote window indicator (bottom left)
+        "statusBarItem.remoteBackground": "#CC00CC",
+        "statusBarItem.remoteForeground": "#1A001A",
+        // Command Center (clickable area in titlebar)
+        "commandCenter.background": "#FF66FF",
+        "commandCenter.foreground": "#1A001A",
+        "commandCenter.activeBackground": "#FF00FF",
+        "commandCenter.activeForeground": "#1A001A",
+        "commandCenter.border": "#990099"
+    }
+}
+

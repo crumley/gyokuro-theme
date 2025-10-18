@@ -28,6 +28,12 @@
         "button.hoverBackground": "#008B8B",
         // Remote window indicator (bottom left)
         "statusBarItem.remoteBackground": "#20B2AA",
-        "statusBarItem.remoteForeground": "#001F1F"
+        "statusBarItem.remoteForeground": "#001F1F",
+        // Command Center (clickable area in titlebar)
+        "commandCenter.background": "#7FFFD4",
+        "commandCenter.foreground": "#001F1F",
+        "commandCenter.activeBackground": "#00CED1",
+        "commandCenter.activeForeground": "#001F1F",
+        "commandCenter.border": "#008B8B"
     }
 }

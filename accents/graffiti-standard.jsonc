@@ -1,0 +1,40 @@
+{
+    "workbench.colorCustomizations": {
+        // Status bar (bottom bar) - NEON ORANGE
+        "statusBar.background": "#FF6600",
+        "statusBar.foreground": "#000000",
+        "statusBar.noFolderBackground": "#FF6600",
+        "statusBar.debuggingBackground": "#FF00FF",
+        "statusBar.debuggingForeground": "#000000",
+        // Activity bar (left side bar) - ELECTRIC PURPLE
+        "activityBar.background": "#9D00FF",
+        "activityBar.foreground": "#39FF14",
+        "activityBar.inactiveForeground": "#FFD700",
+        "activityBar.border": "#FF00FF",
+        // Title bar (top bar) - NEON LIME
+        "titleBar.activeBackground": "#39FF14",
+        "titleBar.activeForeground": "#000000",
+        "titleBar.inactiveBackground": "#2D8B00",
+        "titleBar.inactiveForeground": "#000000",
+        "titleBar.border": "#FFFF00",
+        // Panel title (terminal, problems, etc.) - HOT PINK
+        "panelTitle.activeBorder": "#FF1493",
+        "panelTitle.activeForeground": "#FF1493",
+        // Focus border - ELECTRIC CYAN
+        "focusBorder": "#00FFFF",
+        // Button colors - NEON YELLOW
+        "button.background": "#FFFF00",
+        "button.foreground": "#000000",
+        "button.hoverBackground": "#FFD700",
+        // Remote window indicator (bottom left) - HOT MAGENTA
+        "statusBarItem.remoteBackground": "#FF00FF",
+        "statusBarItem.remoteForeground": "#000000",
+        // Command Center (clickable area in titlebar) - ELECTRIC BLUE
+        "commandCenter.background": "#00BFFF",
+        "commandCenter.foreground": "#000000",
+        "commandCenter.activeBackground": "#0080FF",
+        "commandCenter.activeForeground": "#FFFFFF",
+        "commandCenter.border": "#FF00FF"
+    }
+}
+

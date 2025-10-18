@@ -1,0 +1,68 @@
+{
+    "workbench.colorCustomizations": {
+        // Status bar (bottom bar)
+        "statusBar.background": "#E8E8E8",
+        "statusBar.foreground": "#1A1A1A",
+        "statusBar.noFolderBackground": "#E8E8E8",
+        "statusBar.debuggingBackground": "#B8B8B8",
+        "statusBar.debuggingForeground": "#1A1A1A",
+        // Activity bar (left side bar)
+        "activityBar.background": "#B8B8B8",
+        "activityBar.foreground": "#1A1A1A",
+        "activityBar.inactiveForeground": "#4D4D4D",
+        "activityBar.border": "#E8E8E8",
+        // Title bar (top bar)
+        "titleBar.activeBackground": "#E8E8E8",
+        "titleBar.activeForeground": "#1A1A1A",
+        "titleBar.inactiveBackground": "#B8B8B8",
+        "titleBar.inactiveForeground": "#4D4D4D",
+        "titleBar.border": "#E8E8E8",
+        // Panel title (terminal, problems, etc.)
+        "panelTitle.activeBorder": "#CCCCCC",
+        "panelTitle.activeForeground": "#1A1A1A",
+        // Focus border for white accent
+        "focusBorder": "#CCCCCC",
+        // Button colors
+        "button.background": "#E8E8E8",
+        "button.foreground": "#1A1A1A",
+        "button.hoverBackground": "#B8B8B8",
+        // Remote window indicator (bottom left)
+        "statusBarItem.remoteBackground": "#D0D0D0",
+        "statusBarItem.remoteForeground": "#1A1A1A",
+        // Command Center (clickable area in titlebar)
+        "commandCenter.background": "#CCCCCC",
+        "commandCenter.foreground": "#1A1A1A",
+        "commandCenter.activeBackground": "#E8E8E8",
+        "commandCenter.activeForeground": "#1A1A1A",
+        "commandCenter.border": "#B8B8B8",
+        // Editor tabs (only highlight active tab) - HOT PINK ACCENT
+        "tab.activeBackground": "#E91E63",
+        "tab.activeForeground": "#FFFFFF",
+        "tab.activeBorder": "#FF4081",
+        "tab.activeBorderTop": "#FF4081",
+        // Sidebar sections - HOT PINK ACCENT
+        "sideBarSectionHeader.background": "#E91E63",
+        "sideBarSectionHeader.foreground": "#FFFFFF",
+        "sideBarSectionHeader.border": "#FF4081",
+        // Text selection - HOT PINK ACCENT
+        "editor.selectionBackground": "#E91E6380",
+        "editor.selectionHighlightBackground": "#FF408140",
+        "editor.inactiveSelectionBackground": "#E91E6340",
+        // Input fields - HOT PINK ACCENT
+        "input.border": "#FF4081",
+        // Badges - HOT PINK ACCENT
+        "badge.background": "#E91E63",
+        "badge.foreground": "#FFFFFF",
+        // Scrollbars - HOT PINK ACCENT
+        "scrollbarSlider.background": "#E91E6350",
+        "scrollbarSlider.hoverBackground": "#E91E6380",
+        "scrollbarSlider.activeBackground": "#E91E63",
+        // Lists and trees - HOT PINK ACCENT
+        "list.hoverBackground": "#E91E6340",
+        "list.activeSelectionBackground": "#E91E63",
+        "list.activeSelectionForeground": "#FFFFFF",
+        "list.inactiveSelectionBackground": "#E91E6360",
+        "list.inactiveSelectionForeground": "#FFFFFF"
+    }
+}
+

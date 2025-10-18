@@ -1,0 +1,70 @@
+{
+    "workbench.colorCustomizations": {
+        // Status bar (bottom bar)
+        "statusBar.background": "#FFFF00",
+        "statusBar.foreground": "#1A1A00",
+        "statusBar.noFolderBackground": "#FFFF00",
+        "statusBar.debuggingBackground": "#CCCC00",
+        "statusBar.debuggingForeground": "#1A1A00",
+        // Activity bar (left side bar)
+        "activityBar.background": "#CCCC00",
+        "activityBar.foreground": "#1A1A00",
+        "activityBar.inactiveForeground": "#808000",
+        "activityBar.border": "#FFFF00",
+        // Title bar (top bar)
+        "titleBar.activeBackground": "#FFFF00",
+        "titleBar.activeForeground": "#1A1A00",
+        "titleBar.inactiveBackground": "#CCCC00",
+        "titleBar.inactiveForeground": "#808000",
+        "titleBar.border": "#FFFF00",
+        // Panel title (terminal, problems, etc.)
+        "panelTitle.activeBorder": "#FFFF99",
+        "panelTitle.activeForeground": "#FFFF99",
+        // Focus border for yellow accent
+        "focusBorder": "#FFFF99",
+        // Button colors
+        "button.background": "#FFFF00",
+        "button.foreground": "#1A1A00",
+        "button.hoverBackground": "#CCCC00",
+        // Remote window indicator (bottom left)
+        "statusBarItem.remoteBackground": "#E6E600",
+        "statusBarItem.remoteForeground": "#1A1A00",
+        // Command Center (clickable area in titlebar)
+        "commandCenter.background": "#FFFF99",
+        "commandCenter.foreground": "#1A1A00",
+        "commandCenter.activeBackground": "#FFFF00",
+        "commandCenter.activeForeground": "#1A1A00",
+        "commandCenter.border": "#CCCC00",
+        // Editor tabs (only highlight active tab)
+        "tab.activeBackground": "#CCCC00",
+        "tab.activeForeground": "#FFFF99",
+        "tab.activeBorder": "#FFFF00",
+        "tab.activeBorderTop": "#FFFF00",
+        // Sidebar sections
+        "sideBarSectionHeader.background": "#CCCC00",
+        "sideBarSectionHeader.foreground": "#1A1A00",
+        "sideBarSectionHeader.border": "#FFFF00",
+        // Text selection
+        "editor.selectionBackground": "#CCCC0080",
+        "editor.selectionHighlightBackground": "#FFFF0040",
+        "editor.inactiveSelectionBackground": "#CCCC0040",
+        // Input fields
+        "input.border": "#FFFF00",
+        "input.background": "#999900",
+        "input.foreground": "#1A1A00",
+        // Badges
+        "badge.background": "#FFFF00",
+        "badge.foreground": "#1A1A00",
+        // Scrollbars
+        "scrollbarSlider.background": "#FFFF0050",
+        "scrollbarSlider.hoverBackground": "#FFFF0080",
+        "scrollbarSlider.activeBackground": "#FFFF00",
+        // Lists and trees
+        "list.hoverBackground": "#CCCC0040",
+        "list.activeSelectionBackground": "#CCCC00",
+        "list.activeSelectionForeground": "#1A1A00",
+        "list.inactiveSelectionBackground": "#CCCC0060",
+        "list.inactiveSelectionForeground": "#1A1A00"
+    }
+}
+

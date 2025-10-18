@@ -1,0 +1,79 @@
+{
+  "theme": {
+    "name": "Gyokuro Theme",
+    "version": "0.0.2",
+    "type": "color-theme",
+    "publisher": "cupofcrumley"
+  },
+  "variants": [
+    {
+      "id": "gyokuro-desert",
+      "label": "Gyokuro Desert",
+      "uiTheme": "vs-dark",
+      "description": "Desert theme with green tea inspired accents",
+      "colors": {
+        "editor.background": "#1a1a1a",
+        "editor.foreground": "#d4d4d4",
+        "activityBar.background": "#2d2d2d",
+        "statusBar.background": "#007acc"
+      }
+    },
+    {
+      "id": "gyokuro-light",
+      "label": "Gyokuro Light",
+      "uiTheme": "vs",
+      "description": "Light variant for daytime coding",
+      "colors": {
+        "editor.background": "#ffffff",
+        "editor.foreground": "#333333"
+      }
+    }
+  ],
+  "accents": {
+    "standard": [
+      "cyan",
+      "pink",
+      "orange",
+      "lime",
+      "purple",
+      "blue",
+      "magenta",
+      "yellow",
+      "red",
+      "coral",
+      "white",
+      "black"
+    ],
+    "enhanced": true,
+    "total": 24,
+    "colorPalette": {
+      "cyan": "#00CED1",
+      "pink": "#B83280",
+      "orange": "#FF6600",
+      "lime": "#39FF14",
+      "purple": "#9D00FF",
+      "blue": "#0080FF",
+      "magenta": "#FF00FF",
+      "yellow": "#FFFF00",
+      "red": "#DC143C",
+      "coral": "#FF6F61",
+      "white": "#FFFFFF",
+      "black": "#1A1A1A"
+    }
+  },
+  "features": [
+    "Syntax highlighting",
+    "UI customization",
+    "Workspace accents",
+    "Multiple variations",
+    "High contrast options"
+  ],
+  "metadata": {
+    "created": "2024-01-01",
+    "updated": "2024-10-18",
+    "author": "cupofcrumley",
+    "license": "MIT",
+    "repository": "https://github.com/crumley/gyokuro-theme"
+  }
+}
+

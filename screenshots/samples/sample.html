@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gyokuro Theme - A soothing color theme for VS Code">
+    <title>Gyokuro Theme Demo</title>
+    
+    <style>
+        :root {
+            --primary-color: #39FF14;
+            --secondary-color: #FF6600;
+            --accent-cyan: #00CED1;
+            --accent-pink: #B83280;
+            --dark-bg: #1a1a1a;
+            --light-text: #f0f0f0;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, var(--dark-bg), #2d2d2d);
+            color: var(--light-text);
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        .accent-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+        
+        .accent-card {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 8px;
+            padding: 1.5rem;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .accent-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+        }
+        
+        .accent-card.cyan { border-left: 4px solid var(--accent-cyan); }
+        .accent-card.pink { border-left: 4px solid var(--accent-pink); }
+        .accent-card.lime { border-left: 4px solid var(--primary-color); }
+        
+        @media (max-width: 768px) {
+            .accent-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🍵 Gyokuro Theme</h1>
+            <p class="tagline">A soothing green tea inspired color theme</p>
+        </header>
+        
+        <main>
+            <section class="intro">
+                <h2>Features</h2>
+                <ul>
+                    <li>4 base themes (Desert, Desert OG, Dark, Light)</li>
+                    <li>24 workspace accent variations</li>
+                    <li>Graffiti/street art inspired colors</li>
+                    <li>Standard and enhanced UI customizations</li>
+                </ul>
+            </section>
+            
+            <section class="accents">
+                <h2>Available Accents</h2>
+                <div class="accent-grid">
+                    <div class="accent-card cyan">
+                        <h3>Cyan</h3>
+                        <p>Aqua teal vibes</p>
+                        <code>#00CED1</code>
+                    </div>
+                    <div class="accent-card pink">
+                        <h3>Pink</h3>
+                        <p>Hot pink energy</p>
+                        <code>#B83280</code>
+                    </div>
+                    <div class="accent-card lime">
+                        <h3>Lime</h3>
+                        <p>Radioactive neon green</p>
+                        <code>#39FF14</code>
+                    </div>
+                </div>
+            </section>
+        </main>
+        
+        <footer>
+            <p>&copy; 2024 Gyokuro Theme | MIT License</p>
+        </footer>
+    </div>
+    
+    <script>
+        // Accent theme switcher
+        const AccentSwitcher = {
+            currentAccent: 'cyan',
+            availableAccents: ['cyan', 'pink', 'orange', 'lime', 'purple'],
+            
+            switchTo(accentName) {
+                if (!this.availableAccents.includes(accentName)) {
+                    console.error(`Invalid accent: ${accentName}`);
+                    return false;
+                }
+                
+                this.currentAccent = accentName;
+                this.applyAccent(accentName);
+                return true;
+            },
+            
+            applyAccent(name) {
+                const message = `✓ Applied ${name} accent`;
+                console.log(`%c${message}`, 'color: #39FF14; font-weight: bold');
+            }
+        };
+        
+        // Initialize on load
+        document.addEventListener('DOMContentLoaded', () => {
+            console.log('🎨 Gyokuro Theme Demo loaded');
+            AccentSwitcher.switchTo('cyan');
+        });
+    </script>
+</body>
+</html>
+

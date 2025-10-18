@@ -20,6 +20,10 @@
   "categories": [
     "Themes"
   ],
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish"
+  },
   "contributes": {
     "themes": [
       {

@@ -12,7 +12,7 @@
     "statusBar.foreground": "#CCCCCC",
     "titleBar.activeBackground": "#1d1f21",
     "titleBar.activeForeground": "#CCCCCC",
-    "panel.background": "#373b41",
+    "panel.background": "#1d1f21",
     "panel.border": "#969896",
     "terminal.background": "#1d1f21",
     "terminal.foreground": "#CCCCCC",
