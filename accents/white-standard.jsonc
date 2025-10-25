@@ -9,7 +9,7 @@
         // Activity bar (left side bar)
         "activityBar.background": "#B8B8B8",
         "activityBar.foreground": "#1A1A1A",
-        "activityBar.inactiveForeground": "#4D4D4D",
+        "activityBar.inactiveForeground": "#FFFFFF",
         "activityBar.border": "#E8E8E8",
         // Title bar (top bar)
         "titleBar.activeBackground": "#E8E8E8",
@@ -18,8 +18,9 @@
         "titleBar.inactiveForeground": "#4D4D4D",
         "titleBar.border": "#E8E8E8",
         // Panel title (terminal, problems, etc.)
-        "panelTitle.activeBorder": "#CCCCCC",
-        "panelTitle.activeForeground": "#1A1A1A",
+        "panelTitle.activeBorder": "#E8E8E8",
+        "panelTitle.activeForeground": "#FFFFFF",
+        "panelTitle.inactiveForeground": "#808080",
         // Focus border for white accent
         "focusBorder": "#CCCCCC",
         // Button colors
